@@ -1,0 +1,16 @@
+/* PreTeXt tabular table borders */
+.ptx-tabular {
+  border-collapse: collapse;
+  display: table;
+  border: 2px solid black;
+}
+
+.ptx-tabular .row {
+  display: table-row;
+}
+
+.ptx-tabular .cell {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 0.3em;
+}
